@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.pageeventsnew.PageEventsNew" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Page Events New</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="Events">
+            <property key="onFocus" type="action">
+                <caption>onFocus</caption>
+                <description />
+            </property>
+            <property key="onBlur" type="action">
+                <caption>onBlur</caption>
+                <description />
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
