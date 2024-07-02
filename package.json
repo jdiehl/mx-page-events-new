@@ -14,6 +14,7 @@
   },
   "packagePath": "mendix",
   "scripts": {
+    "postinstall": "patch-package",
     "start": "pluggable-widgets-tools start:native",
     "build": "pluggable-widgets-tools build:native",
     "lint": "pluggable-widgets-tools lint",
@@ -26,7 +27,8 @@
     "@types/big.js": "^6.0.2"
   },
   "dependencies": {
-    "@react-navigation/native": "^6.1.6"
+    "@react-navigation/native": "^6.1.6",
+    "patch-package": "^8.0.0"
   },
   "resolutions": {
     "react": "18.2.0",

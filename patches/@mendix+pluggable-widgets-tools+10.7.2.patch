@@ -1,0 +1,13 @@
+diff --git a/node_modules/@mendix/pluggable-widgets-tools/configs/rollup.config.native.js b/node_modules/@mendix/pluggable-widgets-tools/configs/rollup.config.native.js
+index 196c638..19b204f 100644
+--- a/node_modules/@mendix/pluggable-widgets-tools/configs/rollup.config.native.js
++++ b/node_modules/@mendix/pluggable-widgets-tools/configs/rollup.config.native.js
+@@ -61,7 +61,7 @@ const nativeExternal = [
+     /^react-native-fast-image($|\/)/,
+     /^react-native-svg($|\/)/,
+     /^react-native-vector-icons($|\/)/,
+-    /^react-navigation($|\/)/,
++    /^@?react-navigation($|\/)/,
+     /^react-native-safe-area-context($|\/)/
+ ];
+ 
